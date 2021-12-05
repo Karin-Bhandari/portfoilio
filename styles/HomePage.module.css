@@ -9,11 +9,13 @@
 .picture_boader {
   border: 20px solid rgba(0, 0, 0, 0.52);
   border-radius: 250px;
+  object-fit: cover;
 }
 
 .picture {
   border-radius: 250px;
   display: hidden;
+  object-fit: cover;
 }
 
 .welcome {
