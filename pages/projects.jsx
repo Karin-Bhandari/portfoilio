@@ -46,7 +46,7 @@ const projects = [
     name: "Alvice X",
     category: "Mobile App",
     description:
-      "Alvice X is a cryptocurrency mobile exchange plartform where you get to buy, hodl, send and receive Bitcoin and Ether.",
+      "Alvice X is a cryptocurrency mobile exchange platform where you get to buy, hodl, send and receive Bitcoin and Ether.",
     pictures: [
       { src: "/projects/alvice_0.png" },
       { src: "/projects/alvice_1.png" },
