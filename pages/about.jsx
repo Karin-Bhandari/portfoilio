@@ -20,7 +20,7 @@ const AboutPage = () => {
         <h2 className={styles.title}>About Me</h2>
         <p className={styles.about}>
           Hello, I’m Abdulrasheed, a mobile and web developer based in Yola,
-          Nigeria. I have rich experience in building web and cross plartform
+          Nigeria. I have rich experience in building web and cross platform
           mobile applications. In summary I'm a Full Stack Developer skilled in
           the following
         </p>
