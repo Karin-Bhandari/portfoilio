@@ -44,8 +44,12 @@ const AboutPage = () => {
             <span>Python</span>
           </li>
         </ul>
-        <a className={styles.resumeButton} href="#">
-          Download Resume <FontAwesomeIcon icon={faDownload} />
+        <a
+          className={styles.resumeButton}
+          href="https://www.abdull.dev/resume.pdf"
+          target="_blank"
+        >
+          <FontAwesomeIcon icon={faDownload} /> Download Resume
         </a>
       </div>
     </div>
