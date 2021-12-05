@@ -2,7 +2,7 @@
   background: var(--explorer-bg);
   width: 18vw;
   color: rgb(225, 228, 232);
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   border-right: 1px solid var(--explorer-border);
 }
 
@@ -24,6 +24,7 @@
   align-items: center;
   cursor: pointer;
   padding: 0 0.5rem;
+  user-select: none;
 }
 
 .checkbox {
@@ -42,6 +43,7 @@
   display: flex;
   align-items: center;
   font-size: 0.875rem;
+  user-select: none;
 }
 
 .file p {

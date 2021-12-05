@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   color: #fff;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 0.85rem;
   border-bottom: 1px solid #191d20;
 }
@@ -25,6 +25,7 @@
 .items > * {
   padding: 0 0.5rem;
   cursor: pointer;
+  user-select: none;
 }
 
 .windowButtons {
