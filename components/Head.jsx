@@ -13,7 +13,6 @@ const CustomHead = ({ title }) => {
         content="abdull, abdulrasheed ibrahim, abdoul, web developer, northern nigeria, software developer in Yola"
       />
       <meta property="og:title" content="Abdulrasheed's Portfolio" />
-      <meta property="og:image" content="https://abdull.dev/me.jpg" />
       <meta
         property="og:description"
         content="Web / Mobile Application Developer"
@@ -21,6 +20,7 @@ const CustomHead = ({ title }) => {
       <meta property="og:url" content="https://www.abdull.dev" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="627" />
+      <meta property="og:image:secure" content="https://abdull.dev/me.jpg" />
       <meta property="og:type" content="website" />
 
       <meta name="twitter:card" content="summary_large_image" />
