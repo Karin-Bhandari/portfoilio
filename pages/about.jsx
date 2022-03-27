@@ -10,8 +10,8 @@ const AboutPage = () => {
       <div className={styles.rightScreen}>
         <Image
           className={styles.picture}
-          src="/code.png"
-          width={450}
+          src="/karin.jpg"
+          width={"auto"}
           height={280}
           alt="Code Avatar"
         />
@@ -19,34 +19,44 @@ const AboutPage = () => {
       <div className={styles.leftScreen}>
         <h2 className={styles.title}>About Me</h2>
         <p className={styles.about}>
-          Hello, I’m Abdulrasheed, a mobile and web developer based in Yola,
-          Nigeria. I have rich experience in building web and cross platform
-          mobile applications. In summary I'm a Full Stack Developer skilled in
-          the following
+          Hello, I’m Karin Bhandari, a Full Stack Web Developer based in
+          Kathmandu, Nepal experienced in MERN stack.
         </p>
         <ul className={styles.skillList}>
           <li>
-            <span>JavaScript</span>
+            <span>HTML / CSS / Sass / Scss</span>
           </li>
           <li>
-            <span>Python</span>
+            <span>Javascript / Typescript / ES6</span>
           </li>
           <li>
-            <span>Django</span>
+            <span>ReactJs</span>
           </li>
           <li>
-            <span>ReactJS</span>
+            <span>ReactNative</span>
           </li>
           <li>
-            <span>React Native</span>
+            <span>NextJs</span>
           </li>
           <li>
-            <span>Python</span>
+            <span>NodeJs</span>
+          </li>
+          <li>
+            <span>ExpressJs</span>
+          </li>
+          <li>
+            <span>NestJs</span>
+          </li>
+          <li>
+            <span>Postgres</span>
+          </li>
+          <li>
+            <span>MongoDB</span>
           </li>
         </ul>
         <a
           className={styles.resumeButton}
-          href="https://www.abdull.dev/resume.pdf"
+          href="https://drive.google.com/drive/folders/1YezgMv9oK1MTnaF6nY3fgJgtDTiC3bVU?usp=sharing"
           target="_blank"
         >
           <FontAwesomeIcon icon={faDownload} /> Download Resume

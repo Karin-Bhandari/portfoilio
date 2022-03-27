@@ -17,13 +17,13 @@ export default function HomePage() {
     <div className={styles.container}>
       <div className={styles.left}>
         <h4 className={styles.welcome}>Hello, I'm</h4>
-        <h1 className={styles.title}>Abdulrasheed Ibrahim</h1>
-        <h3 className={styles.subtitle}>Mobile / Web Developer</h3>
+        <h1 className={styles.title}>Karin Bhandari</h1>
+        <h3 className={styles.subtitle}>Full Stack Developer (MERN)</h3>
         <ul className={styles.contacts}>
           <li>
             <FontAwesomeIcon icon={faEnvelope} />
             <a href="mailto:abdulrasheedibrahim47@gmail.com">
-              abdulrasheedibrahim47@gmail.com
+              7.21karinbhandari@gmail.com
             </a>
           </li>
           <li>
@@ -32,12 +32,12 @@ export default function HomePage() {
               target="blank"
               href="https://www.google.com/maps/place/Yola/@9.1982456,12.4179893,12z/data=!3m1!4b1!4m5!3m4!1s0x10fc6b61b99ecf89:0xec813b40178416c7!8m2!3d9.2034963!4d12.4953899"
             >
-              Yola, Nigeria
+              Kathmandu, Nepal
             </a>{" "}
           </li>
           <li>
             <FontAwesomeIcon icon={faPhoneAlt} />
-            <a href="tel:+2347033389645">+2347033389645</a>
+            <a href="tel:+2347033389645">+977 9867259730</a>
           </li>
           <li>
             <FontAwesomeIcon icon={faGithubAlt} />
@@ -59,10 +59,10 @@ export default function HomePage() {
         <div className={styles.picture_boader}>
           <Image
             className={styles.picture}
-            src="/me.jpg"
+            src="/karin.jpg"
             width={300}
             height={290}
-            alt="Abdulrasheed's picture"
+            alt="Karin's picture"
           />
         </div>
       </div>
