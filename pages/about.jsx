@@ -61,7 +61,7 @@ const AboutPage = () => {
         </ul>
         <a
           className={styles.resumeButton}
-          href="https://portfoilio-brown.vercel.app/resume.pdf"
+          href="https://karin-bhandari.vercel.app/resume.pdf"
           target="_blank"
         >
           <FontAwesomeIcon icon={faDownload} /> Download Resume

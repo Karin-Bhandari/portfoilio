@@ -19,13 +19,13 @@ const CustomHead = ({ title }) => {
       />
       <meta
         property="og:url"
-        content="https://portfoilio-brown.vercel.app/github"
+        content="https://karin-bhandari.vercel.app/github"
       />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="627" />
       <meta
         property="og:image:url"
-        content="https://portfoilio-brown.vercel.app/me.jpg"
+        content="https://karin-bhandari.vercel.app/me.jpg"
       />
       <meta property="og:type" content="website" />
 
@@ -40,7 +40,7 @@ const CustomHead = ({ title }) => {
       />
       <meta
         name="twitter:image"
-        content="https://portfoilio-brown.vercel.app/me.jpg"
+        content="https://karin-bhandari.vercel.app/me.jpg"
       />
     </Head>
   );
