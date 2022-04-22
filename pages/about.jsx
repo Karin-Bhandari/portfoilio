@@ -20,12 +20,11 @@ const AboutPage = () => {
         <h2 className={styles.title}>About Me</h2>
         <p className={styles.about}>
           Hello, I’m Karin Bhandari, a Full Stack Web Developer based in
-          Kathmandu, Nepal experienced in MERN stack with 3+ years experience
-          with frontend, backend technologies and Database designing. Strong
-          knowledge in MERN Stack with vast experience in building Web
-          Applications, used ReactJs/NextJs for client side, NodeJs/NestJs for
-          server side, MongoDB, PostgreSql for database and React Native for
-          mobile applications.
+          Kathmandu, Nepal with 3+ years experience with frontend, backend
+          technologies and Database designing. Strong knowledge in MERN Stack
+          with vast experience in building Web Applications, used ReactJs/NextJs
+          for client side, NodeJs/NestJs for server side, MongoDB, PostgreSql
+          for database and React Native for mobile applications.
         </p>
         <ul className={styles.skillList}>
           <li>
