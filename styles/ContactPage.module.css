@@ -47,6 +47,11 @@
 .cardBody p a {
   color: rgb(197, 128, 243);
 }
+
+.cardBodyPTag {
+  color: red;
+}
+
 .button {
   width: 35vw;
   color: #fff;
@@ -55,6 +60,14 @@
   border-style: solid;
   background-color: rgb(11, 206, 175);
 }
+
+.underConstruction {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 600px) {
   .container {
     flex-direction: column;

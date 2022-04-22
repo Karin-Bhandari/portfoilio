@@ -1,8 +1,8 @@
-import Link from 'next/link';
-import Image from 'next/image';
-import { useState } from 'react';
-import ChevronRight from '../components/icons/ChevronRight';
-import styles from '../styles/Explorer.module.css';
+import Link from "next/link";
+import Image from "next/image";
+import { useState } from "react";
+import ChevronRight from "../components/icons/ChevronRight";
+import styles from "../styles/Explorer.module.css";
 
 const Explorer = () => {
   const [portfolioOpen, setPortfolioOpen] = useState(true);
@@ -21,13 +21,13 @@ const Explorer = () => {
         <label htmlFor="portfolio-checkbox" className={styles.heading}>
           <ChevronRight
             className={styles.chevron}
-            style={portfolioOpen ? { transform: 'rotate(90deg)' } : {}}
+            style={portfolioOpen ? { transform: "rotate(90deg)" } : {}}
           />
           Portfolio
         </label>
         <div
           className={styles.files}
-          style={portfolioOpen ? { display: 'block' } : { display: 'none' }}
+          style={portfolioOpen ? { display: "block" } : { display: "none" }}
         >
           <Link href="/">
             <div className={styles.file}>
@@ -36,7 +36,7 @@ const Explorer = () => {
                 alt="React Icon"
                 height={18}
                 width={18}
-              />{' '}
+              />{" "}
               <p>home.jsx</p>
             </div>
           </Link>
@@ -47,7 +47,7 @@ const Explorer = () => {
                 alt="HTML Icon"
                 height={18}
                 width={18}
-              />{' '}
+              />{" "}
               <p>about.html</p>
             </div>
           </Link>
@@ -58,11 +58,11 @@ const Explorer = () => {
                 alt="CSS Icon"
                 height={18}
                 width={18}
-              />{' '}
+              />{" "}
               <p>contact.css</p>
             </div>
           </Link>
-          <Link href="/projects">
+          {/* <Link href="/projects">
             <div className={styles.file}>
               <Image
                 src="/js_icon.svg"
@@ -94,7 +94,7 @@ const Explorer = () => {
               />{' '}
               <p>github.md</p>
             </div>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>

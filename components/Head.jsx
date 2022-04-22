@@ -10,29 +10,38 @@ const CustomHead = ({ title }) => {
       />
       <meta
         name="keywords"
-        content="abdull, abdulrasheed ibrahim, abdoul, web developer, northern nigeria, software developer in Yola"
+        content="Karin Bhandari, Full Stack Developer (MERN), Kathmandu, Nepal, Software Eeveloper in FuseMachines"
       />
       <meta property="og:title" content="Abdulrasheed's Portfolio" />
       <meta
         property="og:description"
         content="Web / Mobile Application Developer"
       />
-      <meta property="og:url" content="https://www.abdull.dev" />
+      <meta
+        property="og:url"
+        content="https://portfoilio-brown.vercel.app/github"
+      />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="627" />
-      <meta property="og:image:url" content="https://abdull.dev/me.jpg" />
+      <meta
+        property="og:image:url"
+        content="https://portfoilio-brown.vercel.app/me.jpg"
+      />
       <meta property="og:type" content="website" />
 
       <meta name="twitter:card" content="summary_large_image" />
       <meta
         name="twitter:title"
-        content="Abdulrasheed Ibrahim | Web / Mobile App Developer"
+        content="Karin Bhandari | Web / Mobile App Developer"
       />
       <meta
         name="twitter:description"
-        content="JavaScript, Python, ReactJS, React Native and Django"
+        content="JavaScript, ReactJS, React Native, NodeJs, ExpressJs, NestJs"
       />
-      <meta name="twitter:image" content="https://abdull.dev/me.jpg" />
+      <meta
+        name="twitter:image"
+        content="https://portfoilio-brown.vercel.app/me.jpg"
+      />
     </Head>
   );
 };
@@ -40,5 +49,5 @@ const CustomHead = ({ title }) => {
 export default CustomHead;
 
 CustomHead.defaultProps = {
-  title: "Abdulrasheed Ibrahim",
+  title: "Karin Bhandari",
 };

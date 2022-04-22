@@ -6,11 +6,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "../styles/HomePage.module.css";
-import {
-  faGithubAlt,
-  faLinkedin,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
+import { faGithubAlt, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function HomePage() {
   return (
@@ -22,37 +18,39 @@ export default function HomePage() {
         <ul className={styles.contacts}>
           <li>
             <FontAwesomeIcon icon={faEnvelope} />
-            <a href="mailto:abdulrasheedibrahim47@gmail.com">
+            <a href="mailto:7.21karinbhandari@gmail.com">
               7.21karinbhandari@gmail.com
             </a>
           </li>
           <li>
             <FontAwesomeIcon icon={faMapMarker} />
-            <a
-              target="blank"
-              href="https://www.google.com/maps/place/Yola/@9.1982456,12.4179893,12z/data=!3m1!4b1!4m5!3m4!1s0x10fc6b61b99ecf89:0xec813b40178416c7!8m2!3d9.2034963!4d12.4953899"
-            >
+            <a target="blank" href="https://goo.gl/maps/ARYh5VSds94VZx7K9">
               Kathmandu, Nepal
             </a>{" "}
           </li>
           <li>
             <FontAwesomeIcon icon={faPhoneAlt} />
-            <a href="tel:+2347033389645">+977 9867259730</a>
+            <a href="tel:+9779867259730">+977 9867259730</a>
           </li>
           <li>
             <FontAwesomeIcon icon={faGithubAlt} />
-            <a href="https://github.com/Abdoulrasheed">Github</a>
-          </li>
-          <li>
-            <FontAwesomeIcon icon={faLinkedin} />
-            <a href="https://www.linkedin.com/in/abdulrasheed-ibrahim-2b3a90103/">
-              Linkedin
+            <a target="_blank" href="https://github.com/Karin-Bhandari">
+              Github
             </a>
           </li>
           <li>
-            <FontAwesomeIcon icon={faTwitter} />
-            <a href="https://twitter.com/Aiibrahim3">Twitter</a>
+            <FontAwesomeIcon icon={faLinkedin} />
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/karin-b-68154a1a2/"
+            >
+              Linkedin
+            </a>
           </li>
+          {/* <li>
+            <FontAwesomeIcon icon={faTwitter} />
+            <a href="https://www.linkedin.com/in/karin-b-68154a1a2/">Twitter</a>
+          </li> */}
         </ul>
       </div>
       <div className={styles.right}>
